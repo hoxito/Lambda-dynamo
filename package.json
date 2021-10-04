@@ -1,0 +1,32 @@
+{
+  "name": "lambda-dynamo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hoxito/dynamo-lambda-practice.git"
+  },
+  "keywords": [
+    "lambda",
+    "dynamo",
+    "dynamodb",
+    "amazon",
+    "aws",
+    "implementation",
+    "sam",
+    "serverless"
+  ],
+  "author": "Jose Aranciba",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hoxito/dynamo-lambda-practice/issues"
+  },
+  "homepage": "https://github.com/hoxito/dynamo-lambda-practice#readme",
+  "description": "",
+  "dependencies": {
+    "aws-sdk": "^2.1000.0"
+  }
+}
