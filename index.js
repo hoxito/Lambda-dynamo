@@ -117,7 +117,7 @@ switch (httpMethod) {
                 return {
                     statusCode: 200,
                     headers: { "content-type": "application/json" },
-                    body: JSON.stringify(deleteParams.Key)+ " eliminado"
+                    body: `${id} Cancelado`
                 };
             } catch {
                 return {
