@@ -1,0 +1,28 @@
+POST http://127.0.0.1:3000/envios
+Content-Type: application/json
+
+{
+  "destino": "san juan",
+  "email": "sanjuan@gmail.com"
+}
+
+###
+GET http://127.0.0.1:3000/envios/pendientes
+Content-Type: application/json
+
+
+### colocar id de un envio
+PUT http://127.0.0.1:3000/envios/7b6a6091-23c5-4616-ab95-cd98b2075d08/entregado
+Content-Type: application/json
+
+{
+  "destino": "san juan",
+  "email": "sanjuan@gmail.com"
+}
+
+### colocar id de un envio
+DELETE http://127.0.0.1:3000/envios/7b6a6091-23c5-4616-ab95-cd98b2075d08/cancelado
+Content-Type: application/json
+
+
+###
